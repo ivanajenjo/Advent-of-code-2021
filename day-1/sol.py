@@ -9,6 +9,7 @@ def sol1():
         valor_anterior = int(linea)
     print(contador)
 
+
 def sol2():
     with open('input', 'r') as f:
         lineas = f.readlines()
@@ -20,6 +21,7 @@ def sol2():
             contador += 1
         valor_anterior = calculo_valor
     print(contador)
+
 
 if __name__ == "__main__":
     sol1()
